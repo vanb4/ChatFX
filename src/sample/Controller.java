@@ -15,6 +15,8 @@ public class Controller {
     @FXML
     TextArea textArea;
 
+
+
     
         public void addTextToArea(ActionEvent actionEvent) {
             textArea.appendText(mainTextField.getText() + lineSeparator());
